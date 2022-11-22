@@ -1,0 +1,12 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "noUnusedLocals": false,
+  "noUnusedParameters": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
